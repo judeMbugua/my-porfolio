@@ -1,0 +1,251 @@
+html,body{
+    background-color: #243647;
+    padding: 10px;
+}
+
+#name{
+
+    position: absolute;
+    margin-top: -.5rem;
+    margin-left: 4rem;
+    width: fit-content;
+    color: rgb(140, 163, 160);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+
+.menu-button{
+   position: absolute;
+   margin-left: 16.5rem;
+   margin-top: -1.3rem;
+   background-color: inherit;
+   width: 2rem;
+   border: none;
+   height: 1.9rem;
+   
+}
+
+.drop-items-container{
+    background-color: #243647;
+    width: fit-content;
+}
+
+.dropdown-item{
+    color:white;
+    font-size: .8rem;
+}
+
+#myImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 5rem;
+    margin-top: .3rem;
+    margin-left: .4rem;
+}
+
+.info-container{
+
+    width: 12rem;
+    margin-left: .5rem;
+}
+
+#infoName{
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #94ADC7;
+}
+
+#infoOcc{
+    font-size: 1.2rem;
+    margin-top: -16px;
+    color: #94ADC7;
+}
+
+.hire-btn{
+    
+    margin-left: -.8rem;
+    font-size: 1.2rem;
+    background-color: #6e8090;
+    border: none;
+    border-radius: 6px;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.infoContact-btn{
+    margin-left: 8px;
+    position: absolute;
+    font-size: 1.2rem;
+    background-color: #1A80E5;
+    border: none;
+    border-radius: 6px;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+
+.projs-section{
+    margin-left: -.5rem;
+    margin-top: .8rem;
+    width: 20rem;
+}
+
+#projsHeadText{
+    margin-left: .5rem;
+    font-size: larger;
+    color: #94ADC7;
+}
+
+.grid-container{
+    margin-top:-.1rem;
+    display: grid;
+    row-gap: 2px;
+    width: 100vw;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr;
+}
+
+.g-item{
+  
+    border-radius: 1rem;
+    height: 15rem;
+    width:10rem;
+    background-color: rgb(70, 70, 82);
+}
+
+#proj1Image{
+    border-radius: 1rem;
+    height: 7rem;
+    width: 10rem;
+}
+
+#proj1Name{
+    margin-top: .4rem;
+    margin-left: .4rem;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #a9b1bba5;
+}
+
+.proj1-btn{
+    width: 9rem;
+    margin-left: .5rem;
+    background-color: #a9b1bba5;
+    border-radius: .5rem;
+    border: none;
+}
+
+.about-section{
+    width: 20rem;
+    margin-top: .8rem;
+    margin-left: .4rem;
+
+}
+
+#about_text{
+    margin-left: .4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(182, 158, 158, 0.724);
+}
+
+.info-text-container{
+    width: fit-content;
+    margin-top: -.3rem;
+    border-radius: 1rem;
+    background-color:   rgba(127, 157, 179, 0.17);
+}
+
+#about_desc{
+    margin: 10px;
+    color: rgb(127, 157, 179);
+    font-size: .8rem;
+}
+
+@keyframes sayHi {
+    from {opacity: 1;}
+    to {opacity: .2;}
+  }
+
+#wave{
+    animation-name: sayHi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+#contact_header{
+    margin-top: 1.4rem;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgba(182, 158, 158, 0.724);
+}
+
+.contact-form{
+    margin-left: 3rem;
+}
+
+
+hr {
+    width: 100%;
+    display: block;
+    margin-top: 0.5em;
+    border-style: inset;
+    border-width: 1px;
+}
+
+form input{
+    border-radius:1px ;
+    padding: 12px 20px;
+    width: 15rem;
+    margin-bottom: 15px;
+    height: 2rem;
+    background-color: #516273;
+}
+
+#emailMessage{
+    padding: 12px 20px;
+    width: 15rem;
+    height: 7rem;
+    background-color: #516273;
+}
+
+input, textarea{
+    color: #f3f3f3;
+}
+
+textarea:focus, input:focus {
+    color: #c7c1c1;
+}
+
+
+footer{
+    border-color: rgb(141, 255, 10);
+    width: 20rem;
+    height: max-content;
+    padding-bottom: 20px;
+    background-color: #46525d;
+
+}
+
+
+.social-container{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.iconImg{
+    width: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+#copyText{
+    margin-top: 10px;
+    text-align: center;
+}
