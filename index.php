@@ -41,6 +41,10 @@
 
         <div class="projs-section">
             <p id="projsHeadText">Featured Work</p>
+            <?php
+                $name = 'Jude Mbugua';
+                echo $name;
+            ?>
             <div class="grid-container">
                 <div class="g-item">
                     <div class="proj-image-container">
